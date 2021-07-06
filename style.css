@@ -1,0 +1,131 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+.banner-section {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.half-width {
+    width: 40%;
+    margin-left: 5%;
+}
+
+.half-width h1 {
+    font-size: 50px;
+    font-weight: 700;
+    color: #575757;
+}
+
+.pink {
+    color: #FBA24F;
+}
+
+.half-width img {
+    width: 100%;
+}
+
+#text {
+    margin-top: 10%
+}
+
+.button {
+    background-image: linear-gradient(#FBA24F, #FF1E1E);
+    padding: 15px 30px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 30px;
+    display: inline-block;
+    margin-top: 30px;
+
+}
+
+.about-section {
+    display: flex;
+    background-image: url(images/bg1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 100px;
+}
+
+.img-section {
+    width: 40%;
+    margin-left: 10%;
+}
+
+.text-section {
+    width: 40%;
+    margin-top: 10%;
+}
+
+.img-section img {
+    width: 100%;
+}
+
+.recipies {
+    margin-bottom: 100px;
+}
+
+.content {
+    text-align: center;
+}
+
+.item-menu {
+    display: flex;
+    margin: 0 4%;
+}
+
+.item {
+    width: 30%;
+    box-shadow: 5px 5px 50px gray;
+    border-radius: 30px;
+    margin: 3%;
+    height: 550px;
+}
+
+.item img {
+    width: 100%;
+
+}
+
+.item-text {
+    margin: 5%;
+}
+
+.newsletter {
+    background-image: url(images/bg2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 100px 0;
+    margin-bottom: 100px;
+}
+
+.newsletter h1 {
+    font-size: 100px;
+    color: white;
+    font-weight: 700;
+    margin: 0;
+}
+
+.newsletter input {
+    font-size: 40px;
+    margin-left: 10px;
+    font-weight: 700;
+    margin-top: 30px;
+
+}
+
+footer {
+    height: 200px;
+    background: black;
+    color: white;
+    text-align: center;
+}
+
+.end-text {
+    padding-top: 30px;
+}
