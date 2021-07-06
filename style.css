@@ -7,7 +7,7 @@ header {
     width: 100%;
     height: auto;
     margin: 0 auto;
-    background: #FF1E1E;
+    background-color: #FF1E1E;
     padding-top: 5px;
     padding-bottom: 5px;
 
@@ -160,13 +160,13 @@ header {
 }
 
 .subscribe {
-    background: #FF1E1E;
+    background-color: #FF1E1E;
     color: #FFFFFF;
 }
 
 footer {
     height: 250px;
-    background: black;
+    background-color: black;
     color: white;
     text-align: center;
 }
